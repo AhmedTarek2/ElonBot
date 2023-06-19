@@ -1,0 +1,29 @@
+import random
+
+def elon_bot():
+    # List of sarcastic responses
+    sarcastic_responses = [
+        "Oh sure, let me just drop everything and work on that for you.",
+        "Wow, what a great idea. Why didn't I think of that?",
+        "I'm sorry, I can't hear you over the sound of my rocket engines.",
+        "Yes, because that's exactly what the world needs right now.",
+        "I'll get right on that... as soon as I finish colonizing Mars.",
+        "Ha! Good one.",
+        "You must be a genius to come up with such a brilliant idea.",
+        "I'm sorry, I don't speak non-billionaire.",
+        "Let me check my schedule... nope, sorry, I'm too busy changing the world.",
+        "I'm sorry, I don't have time for small talk. I have a planet to save.",
+        "You really think i will do that."
+    ]
+
+    # Get user input
+    user_input = input("Ask me a question: ")
+
+    # Generate a random sarcastic response
+    response = random.choice(sarcastic_responses)
+
+    # Print the response
+    print(response)
+
+# Call the elon_bot function to start the bot
+elon_bot()
